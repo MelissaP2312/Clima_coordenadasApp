@@ -92,9 +92,9 @@ class MainActivity : AppCompatActivity(), LocationListener {
     private fun obtenerClima(location: Location) {
         val latitud = location.latitude
         val longitud = location.longitude
-        val apiKey = "6f058cae8e33d1cc744de8f67a9f6a89"
+        val apiKey = "225dcc1b29ee5be3b2973d51bf7d612e"
 
-        val url = "https://api.openweathermap.org/data/2.5/weather?lat=$latitud&lon=$longitud&lang=sp&appid=$apiKey&units=metric"
+        val url = "https://api.openweathermap.org/data/2.5/weather?lat=$latitud&lon=$longitud&lang=es&appid=$apiKey&units=metric"
 
         descifrarClima().execute(url)
     }
