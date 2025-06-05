@@ -44,9 +44,9 @@ Aplicación móvil para Android que muestra el clima actual basado en coordenada
 
 3. **Obtén una API key gratuita de OpenWeatherMap**
 
-4. **Crea un archivo local.properties en la raíz del proyecto y agrega:**
+4. **En el archivo MainActivity.kt agrega:**
     ```bash
-   OPEN_WEATHER_MAP_API_KEY=tu_api_key_aquí
+   apiKey=tu_api_key_aquí
    ```
    
 5. **Sincroniza el proyecto con Gradle**
